@@ -1,0 +1,15 @@
+/Users/mac/Desktop/hackrank-interview/c#-exam/bin/Debug/net8.0/c#-exam
+/Users/mac/Desktop/hackrank-interview/c#-exam/bin/Debug/net8.0/c#-exam.deps.json
+/Users/mac/Desktop/hackrank-interview/c#-exam/bin/Debug/net8.0/c#-exam.runtimeconfig.json
+/Users/mac/Desktop/hackrank-interview/c#-exam/bin/Debug/net8.0/c#-exam.dll
+/Users/mac/Desktop/hackrank-interview/c#-exam/bin/Debug/net8.0/c#-exam.pdb
+/Users/mac/Desktop/hackrank-interview/c#-exam/obj/Debug/net8.0/c#-exam.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Desktop/hackrank-interview/c#-exam/obj/Debug/net8.0/c#-exam.AssemblyInfoInputs.cache
+/Users/mac/Desktop/hackrank-interview/c#-exam/obj/Debug/net8.0/c#-exam.AssemblyInfo.cs
+/Users/mac/Desktop/hackrank-interview/c#-exam/obj/Debug/net8.0/c#-exam.csproj.CoreCompileInputs.cache
+/Users/mac/Desktop/hackrank-interview/c#-exam/obj/Debug/net8.0/c#-exam.sourcelink.json
+/Users/mac/Desktop/hackrank-interview/c#-exam/obj/Debug/net8.0/c#-exam.dll
+/Users/mac/Desktop/hackrank-interview/c#-exam/obj/Debug/net8.0/refint/c#-exam.dll
+/Users/mac/Desktop/hackrank-interview/c#-exam/obj/Debug/net8.0/c#-exam.pdb
+/Users/mac/Desktop/hackrank-interview/c#-exam/obj/Debug/net8.0/c#-exam.genruntimeconfig.cache
+/Users/mac/Desktop/hackrank-interview/c#-exam/obj/Debug/net8.0/ref/c#-exam.dll
