@@ -1,0 +1,15 @@
+/Users/mac/Desktop/hackrank-interview/c#-api-exam/bin/Debug/net8.0/c#-api-exam
+/Users/mac/Desktop/hackrank-interview/c#-api-exam/bin/Debug/net8.0/c#-api-exam.deps.json
+/Users/mac/Desktop/hackrank-interview/c#-api-exam/bin/Debug/net8.0/c#-api-exam.runtimeconfig.json
+/Users/mac/Desktop/hackrank-interview/c#-api-exam/bin/Debug/net8.0/c#-api-exam.dll
+/Users/mac/Desktop/hackrank-interview/c#-api-exam/bin/Debug/net8.0/c#-api-exam.pdb
+/Users/mac/Desktop/hackrank-interview/c#-api-exam/obj/Debug/net8.0/c#-api-exam.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Desktop/hackrank-interview/c#-api-exam/obj/Debug/net8.0/c#-api-exam.AssemblyInfoInputs.cache
+/Users/mac/Desktop/hackrank-interview/c#-api-exam/obj/Debug/net8.0/c#-api-exam.AssemblyInfo.cs
+/Users/mac/Desktop/hackrank-interview/c#-api-exam/obj/Debug/net8.0/c#-api-exam.csproj.CoreCompileInputs.cache
+/Users/mac/Desktop/hackrank-interview/c#-api-exam/obj/Debug/net8.0/c#-api-exam.sourcelink.json
+/Users/mac/Desktop/hackrank-interview/c#-api-exam/obj/Debug/net8.0/c#-api-exam.dll
+/Users/mac/Desktop/hackrank-interview/c#-api-exam/obj/Debug/net8.0/refint/c#-api-exam.dll
+/Users/mac/Desktop/hackrank-interview/c#-api-exam/obj/Debug/net8.0/c#-api-exam.pdb
+/Users/mac/Desktop/hackrank-interview/c#-api-exam/obj/Debug/net8.0/c#-api-exam.genruntimeconfig.cache
+/Users/mac/Desktop/hackrank-interview/c#-api-exam/obj/Debug/net8.0/ref/c#-api-exam.dll
