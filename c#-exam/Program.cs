@@ -7,6 +7,63 @@ using System.Net.Http.Headers;
 class Program
 {
 
+    public static int maxCost(List<int> costs, List<string> labels, int dailyCount)
+    {
+        if(costs is null || labels is null || dailyCount == 0)
+        {
+            throw new ArgumentNullException("Invalid arguments");
+        }
+        
+        List<(int cost, string label)> combinedList = costs.Zip(labels, (cost, label) => (cost, label)).ToList();
+
+        int totalCosts = 0;
+        int totalLaptops = combinedList.Count;
+
+        int days = totalLaptops / dailyCount;
+        int remainingLaptops = totalLaptops % dailyCount;
+
+        for (int i = 0; i < days; i++)
+        {
+            var dailyCost = combinedList.Skip(i * dailyCount)
+                                        .Take(dailyCount)
+                                        .Sum(item => item.cost);
+
+            totalCosts += dailyCost;
+        }
+
+        if (remainingLaptops > 0)
+        {
+            var remainingCost = combinedList.Skip(days * dailyCount)
+                                            .Take(remainingLaptops)
+                                            .Sum(item => item.cost);
+
+            totalCosts += remainingCost;
+        }
+
+        return totalCosts;
+    }
+
+
+    public static List<string> mostActive(List<string> customers)
+    {
+        var nameCounts = customers.GroupBy(name => name)
+        .Select(group => new { Name = group.Key, Count = group.Count() })
+        .ToList();
+
+        double totalNames = customers.Count;
+
+        var namePercentages = nameCounts.Select(n => new { n.Name, Percentage = (n.Count / totalNames) * 100 })
+        .ToList();
+
+        var top5PercentNames = namePercentages.Where(n => n.Percentage >= 5)
+        .Select(n => n.Name)
+        .ToList();
+
+        top5PercentNames.Sort();
+
+        return top5PercentNames;
+    }
+
 
     public static void fizzBuzz(int n)
     {
@@ -132,7 +189,7 @@ class Program
 
     public static void Main(string[] args)
     {
-        await getTotalGoals("Barcelona", 2021);
+        //await getTotalGoals("Barcelona", 2021);
     }
 
 
